@@ -23,6 +23,7 @@ return new class extends Migration
             $table->text('about', 250)->nullable();
             $table->rememberToken();
             $table->timestamps();
+            $table->string('nothing');
         });
     }
 
